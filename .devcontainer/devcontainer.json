@@ -1,5 +1,5 @@
 {
-  "name": "PowerShell Runtime Containers",
+  "name": "Graph Runtime Container",
   "image": "mcr.microsoft.com/devcontainers/dotnet:1-10.0-preview-trixie-slim", //Trixie needed for podman/buildah updates
   "privileged": true,
   "hostRequirements": {
