@@ -1,4 +1,4 @@
-# Script with Modules
+# Scripts
 
 This folder shows how to test a PowerShell script that depends on the `Microsoft.Graph.Authentication` module without installing anything on your host. It uses [ModuleFast](https://github.com/JustinGrote/ModuleFast) to install dependencies at container build time, based on the `#requires -Module` line in your script.
 
