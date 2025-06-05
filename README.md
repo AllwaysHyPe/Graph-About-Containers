@@ -25,8 +25,7 @@ It works great with DevContainers too, so you can test and explore from Codespac
 
 ## 🧪 What’s inside (still building this out)
 
-- `Scripts/` – raw PowerShell scripts to evolve into containerized modules
-- `ScriptsWithModules/` – testable containers where the script defines module dependencies using `#requires -Module` and `ModuleFast` installs them at build time
+- `Scripts/` – testable containers where the script defines module dependencies using `#requires -Module` and `ModuleFast` installs them at build time
 - `containers/` – individual container projects, each with its own `Dockerfile` and `main.ps1` (coming soon)
 - `examples/` – reusable Graph automation scripts you can drop into container folders (coming soon)
 
